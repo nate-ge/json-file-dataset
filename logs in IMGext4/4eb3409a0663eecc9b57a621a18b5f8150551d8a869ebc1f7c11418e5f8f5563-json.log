@@ -1,0 +1,33 @@
+{"log":"1:C 28 Jul 2021 13:43:31.636 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo\n","stream":"stdout","time":"2021-07-28T13:43:31.638537233Z"}
+{"log":"1:C 28 Jul 2021 13:43:31.636 # Redis version=6.0.7, bits=64, commit=00000000, modified=0, pid=1, just started\n","stream":"stdout","time":"2021-07-28T13:43:31.638567324Z"}
+{"log":"1:C 28 Jul 2021 13:43:31.636 # Configuration loaded\n","stream":"stdout","time":"2021-07-28T13:43:31.638572361Z"}
+{"log":"1:M 28 Jul 2021 13:43:31.637 * Running mode=standalone, port=6379.\n","stream":"stdout","time":"2021-07-28T13:43:31.638575658Z"}
+{"log":"1:M 28 Jul 2021 13:43:31.637 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.\n","stream":"stdout","time":"2021-07-28T13:43:31.63857884Z"}
+{"log":"1:M 28 Jul 2021 13:43:31.637 # Server initialized\n","stream":"stdout","time":"2021-07-28T13:43:31.638582993Z"}
+{"log":"1:M 28 Jul 2021 13:43:31.637 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.\n","stream":"stdout","time":"2021-07-28T13:43:31.638586503Z"}
+{"log":"1:M 28 Jul 2021 13:43:31.637 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never \u003e /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.\n","stream":"stdout","time":"2021-07-28T13:43:31.638590303Z"}
+{"log":"1:M 28 Jul 2021 13:43:31.638 * Ready to accept connections\n","stream":"stdout","time":"2021-07-28T13:43:31.638595081Z"}
+{"log":"1:M 28 Jul 2021 13:43:31.638 . 0 clients connected (0 replicas), 802952 bytes in use\n","stream":"stdout","time":"2021-07-28T13:43:31.638598196Z"}
+{"log":"1:M 28 Jul 2021 13:43:36.645 . 0 clients connected (0 replicas), 802952 bytes in use\n","stream":"stdout","time":"2021-07-28T13:43:36.645398792Z"}
+{"log":"1:M 28 Jul 2021 13:43:41.652 . 0 clients connected (0 replicas), 802952 bytes in use\n","stream":"stdout","time":"2021-07-28T13:43:41.652425769Z"}
+{"log":"1:M 28 Jul 2021 13:43:46.659 . 0 clients connected (0 replicas), 802952 bytes in use\n","stream":"stdout","time":"2021-07-28T13:43:46.659563189Z"}
+{"log":"1:M 28 Jul 2021 13:43:51.666 . 0 clients connected (0 replicas), 802952 bytes in use\n","stream":"stdout","time":"2021-07-28T13:43:51.666524323Z"}
+{"log":"1:M 28 Jul 2021 13:43:56.673 . 0 clients connected (0 replicas), 802952 bytes in use\n","stream":"stdout","time":"2021-07-28T13:43:56.673719497Z"}
+{"log":"1:M 28 Jul 2021 13:44:01.681 . 0 clients connected (0 replicas), 802952 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:01.681157075Z"}
+{"log":"1:M 28 Jul 2021 13:44:06.688 . 0 clients connected (0 replicas), 802952 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:06.688062228Z"}
+{"log":"1:M 28 Jul 2021 13:44:11.645 - Accepted 127.0.0.1:45252\n","stream":"stdout","time":"2021-07-28T13:44:11.648430112Z"}
+{"log":"1:M 28 Jul 2021 13:44:11.648 - Client closed connection\n","stream":"stdout","time":"2021-07-28T13:44:11.648777817Z"}
+{"log":"1:M 28 Jul 2021 13:44:11.694 . 0 clients connected (0 replicas), 803096 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:11.694749466Z"}
+{"log":"1:M 28 Jul 2021 13:44:16.701 . 0 clients connected (0 replicas), 803000 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:16.701720864Z"}
+{"log":"1:M 28 Jul 2021 13:44:19.786 - Accepted 127.0.0.1:45254\n","stream":"stdout","time":"2021-07-28T13:44:19.789916482Z"}
+{"log":"1:M 28 Jul 2021 13:44:19.790 - Client closed connection\n","stream":"stdout","time":"2021-07-28T13:44:19.79025432Z"}
+{"log":"1:M 28 Jul 2021 13:44:21.707 . 0 clients connected (0 replicas), 803000 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:21.707934713Z"}
+{"log":"1:M 28 Jul 2021 13:44:26.714 . 0 clients connected (0 replicas), 803000 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:26.714953405Z"}
+{"log":"1:M 28 Jul 2021 13:44:31.722 . 0 clients connected (0 replicas), 803000 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:31.722210457Z"}
+{"log":"1:M 28 Jul 2021 13:44:36.729 . 0 clients connected (0 replicas), 803000 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:36.729322378Z"}
+{"log":"1:M 28 Jul 2021 13:44:41.740 . 0 clients connected (0 replicas), 803000 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:41.741072211Z"}
+{"log":"1:M 28 Jul 2021 13:44:46.747 . 0 clients connected (0 replicas), 803000 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:46.747966834Z"}
+{"log":"1:M 28 Jul 2021 13:44:51.754 . 0 clients connected (0 replicas), 803000 bytes in use\n","stream":"stdout","time":"2021-07-28T13:44:51.754992475Z"}
+{"log":"1:signal-handler (1627479892) Received SIGTERM scheduling shutdown...\n","stream":"stdout","time":"2021-07-28T13:44:52.919759892Z"}
+{"log":"1:M 28 Jul 2021 13:44:52.956 # User requested shutdown...\n","stream":"stdout","time":"2021-07-28T13:44:52.959982963Z"}
+{"log":"1:M 28 Jul 2021 13:44:52.956 # Redis is now ready to exit, bye bye...\n","stream":"stdout","time":"2021-07-28T13:44:52.959997805Z"}
