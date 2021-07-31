@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:4.4.0
+    volumes:
+      - ./test.sql:/test.sql
+    ports:
+      - 27018:27017
+    command:
+      "-vvvvv"

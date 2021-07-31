@@ -1,0 +1,5 @@
+docker ps -a # list the infomation of containers and find the container just created
+
+docker exec -it xxx bash # xxx is the container ID
+
+cat test.sql | mongo

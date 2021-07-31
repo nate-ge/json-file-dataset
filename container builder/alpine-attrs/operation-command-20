@@ -1,0 +1,80 @@
+touch test0
+touch test1
+touch test2
+touch test3
+touch test4
+touch test5
+touch test6
+touch test7
+touch test8
+touch test9
+touch test10
+touch test11
+touch test12
+touch test13
+touch test14
+touch test15
+touch test16
+touch test17
+touch test18
+touch test19
+echo "Hello world0" > test0
+echo "Hello world1" > test1
+echo "Hello world2" > test2
+echo "Hello world3" > test3
+echo "Hello world4" > test4
+echo "Hello world5" > test5
+echo "Hello world6" > test6
+echo "Hello world7" > test7
+echo "Hello world8" > test8
+echo "Hello world9" > test9
+echo "Hello world10" > test10
+echo "Hello world11" > test11
+echo "Hello world12" > test12
+echo "Hello world13" > test13
+echo "Hello world14" > test14
+echo "Hello world15" > test15
+echo "Hello world16" > test16
+echo "Hello world17" > test17
+echo "Hello world18" > test18
+echo "Hello world19" > test19
+cat test0
+cat test1
+cat test2
+cat test3
+cat test4
+cat test5
+cat test6
+cat test7
+cat test8
+cat test9
+cat test10
+cat test11
+cat test12
+cat test13
+cat test14
+cat test15
+cat test16
+cat test17
+cat test18
+cat test19
+rm test0
+rm test1
+rm test2
+rm test3
+rm test4
+rm test5
+rm test6
+rm test7
+rm test8
+rm test9
+rm test10
+rm test11
+rm test12
+rm test13
+rm test14
+rm test15
+rm test16
+rm test17
+rm test18
+rm test19

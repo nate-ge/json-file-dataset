@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  redis:
+    image: redis:6.0.7
+    container_name: local_redis
+    ports:
+        - 80:80
+    volumes:
+      - ./redis-command:/data/redis-command
+    command:
+      "--loglevel debug"

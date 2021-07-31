@@ -1,0 +1,1 @@
+docker run -it ubuntu:20.04 bash

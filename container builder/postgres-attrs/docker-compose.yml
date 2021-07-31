@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:12.4
+    container_name: postgresql_attrs
+    command:
+      "-c log_statement=all"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+        - 80:80
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./test.sql:/test.sql
+    logging:
+      options:
+        tag: "{{.ImageName}}/{{.Name}}/{{.ID}}"

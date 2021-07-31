@@ -1,0 +1,17 @@
+version: '3'
+services:
+    db:
+        #构建mysql镜像
+        image: mysql:8.0.21
+        container_name: mysql-db
+        command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+        environment:
+          MYSQL_ROOT_PASSWORD: root #root管理员用户密码
+        ports:
+          - '6606:3306'  #host物理直接映射端口为6606
+        volumes:
+            #mysql数据库挂载到host物理机目录/e/docker/mysql/data/db
+          - "./db:/var/lib/mysql"  
+            #容器的配置目录挂载到host物理机目录/e/docker/mysql/data/conf  
+          # - "./conf:/etc/mysql/conf.d"
+          - "./test.sql:/test.sql"

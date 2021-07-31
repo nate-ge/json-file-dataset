@@ -1,0 +1,7 @@
+docker ps -a # list the infomation of containers and find the container just created
+
+docker exec -it xxx bash # xxx is the container ID
+
+mysql -h localhost -u root -p # password is root
+
+copy the command in test.sql into shell

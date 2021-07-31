@@ -1,0 +1,1 @@
+docker run -it --log-opt tag="{{.ImageName}}/{{.Name}}/{{.ID}}" ubuntu:20.04 bash

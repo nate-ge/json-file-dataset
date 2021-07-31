@@ -1,0 +1,6 @@
+apt-get update
+apt-get install openssh
+apt-get install vim
+
+apt-get install mysql
+apt-get install nginx
