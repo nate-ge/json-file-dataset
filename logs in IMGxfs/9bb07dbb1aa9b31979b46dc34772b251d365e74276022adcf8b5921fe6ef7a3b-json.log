@@ -1,0 +1,58 @@
+{"log":"2020-10-07 08:28:15+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.21-1debian10 started.\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:15.481269325Z"}
+{"log":"2020-10-07 08:28:15+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:15.785675262Z"}
+{"log":"2020-10-07 08:28:15+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.21-1debian10 started.\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:15.807566136Z"}
+{"log":"2020-10-07 08:28:16+00:00 [Note] [Entrypoint]: Initializing database files\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:16.106696075Z"}
+{"log":"2020-10-07T08:28:16.171973Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.21) initializing of server in progress as process 45\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:16.19382384Z"}
+{"log":"2020-10-07T08:28:16.200086Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:16.200586631Z"}
+{"log":"2020-10-07T08:28:17.295109Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:17.296775355Z"}
+{"log":"2020-10-07T08:28:20.231727Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:20.232154028Z"}
+{"log":"2020-10-07 08:28:24+00:00 [Note] [Entrypoint]: Database files initialized\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:24.696169235Z"}
+{"log":"2020-10-07 08:28:24+00:00 [Note] [Entrypoint]: Starting temporary server\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:24.70120544Z"}
+{"log":"2020-10-07T08:28:25.239271Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 92\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:25.274139547Z"}
+{"log":"2020-10-07T08:28:25.280021Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:25.28038391Z"}
+{"log":"2020-10-07T08:28:27.691132Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:27.691857524Z"}
+{"log":"2020-10-07T08:28:32.626402Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:32.627193689Z"}
+{"log":"2020-10-07T08:28:38.412708Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:38.413728544Z"}
+{"log":"2020-10-07T08:28:38.413406Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:38.414101957Z"}
+{"log":"2020-10-07T08:28:38.417532Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:38.418212437Z"}
+{"log":"2020-10-07T08:28:38.657728Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:38.658183657Z"}
+{"log":"2020-10-07 08:28:38+00:00 [Note] [Entrypoint]: Temporary server started.\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:38.685978518Z"}
+{"log":"Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:42.626109593Z"}
+{"log":"Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:42.626181829Z"}
+{"log":"Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:52.148034283Z"}
+{"log":"Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:52.148107311Z"}
+{"log":"2020-10-07 08:28:53+00:00 [Note] [Entrypoint]: Creating database wordpress\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:53.676997142Z"}
+{"log":"\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:53.729518133Z"}
+{"log":"2020-10-07 08:28:53+00:00 [Note] [Entrypoint]: Stopping temporary server\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:53.735266996Z"}
+{"log":"2020-10-07T08:28:53.777785Z 11 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.21).\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:53.778295199Z"}
+{"log":"2020-10-07T08:28:55.604164Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:55.604863226Z"}
+{"log":"2020-10-07 08:28:55+00:00 [Note] [Entrypoint]: Temporary server stopped\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:55.786180629Z"}
+{"log":"\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:55.786435818Z"}
+{"log":"2020-10-07 08:28:55+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:55.790959118Z"}
+{"log":"\n","stream":"stdout","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:55.791180094Z"}
+{"log":"2020-10-07T08:28:56.332984Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 1\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:56.3537822Z"}
+{"log":"2020-10-07T08:28:56.358347Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:56.35874523Z"}
+{"log":"2020-10-07T08:28:56.857416Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:56.858023589Z"}
+{"log":"2020-10-07T08:28:57.241929Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:57.242652609Z"}
+{"log":"2020-10-07T08:28:57.461710Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:57.462377937Z"}
+{"log":"2020-10-07T08:28:57.462058Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:57.46291194Z"}
+{"log":"2020-10-07T08:28:57.466056Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:57.466601454Z"}
+{"log":"2020-10-07T08:28:57.513603Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:28:57.513805214Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:29:51.640612136Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:29:54.396129094Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:29:55.449637886Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:30:06.238630144Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:30:07.075363369Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:30:15.733370528Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:30:16.708702139Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:30:22.059872655Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:31:25.200701989Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:31:45.362394924Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:31:51.209000339Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:31:56.144175985Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:32:05.702468574Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:32:10.486132558Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:32:10.514745143Z"}
+{"log":"mbind: Operation not permitted\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:32:10.65203123Z"}
+{"log":"2020-10-07T08:33:01.509140Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user \u003cvia user signal\u003e. Shutting down mysqld (Version: 8.0.21).\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:33:01.510621091Z"}
+{"log":"2020-10-07T08:33:02.680679Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.\n","stream":"stderr","attrs":{"tag":"mysql/mysql2/9bb07dbb1aa9"},"time":"2020-10-07T08:33:02.681297276Z"}
